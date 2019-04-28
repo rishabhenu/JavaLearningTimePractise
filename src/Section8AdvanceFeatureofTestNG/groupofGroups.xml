@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="grouping example">
+
+<test name ="test for non veg">
+
+<groups>
+	<define name="all non veg foods">
+		<include name="nonveg"/>
+	</define>
+	
+	<define name ="breakfast and dinner">
+		<include name="breakfast"/>
+		<include name="dinner"/>
+	</define>
+	
+	<run>
+		<include name="all non veg foods"/>
+		<exclude name="lunch"/>
+	</run>
+</groups>
+
+<classes>
+	<class name="Section8AdvanceFeatureofTestNG.GroupingExamples"/>
+</classes>
+
+</test>
+
+</suite>

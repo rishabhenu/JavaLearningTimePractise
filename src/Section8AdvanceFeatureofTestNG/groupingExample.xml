@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="grouping example">
+
+<test name ="test for non veg">
+
+<groups>
+<run>
+<include name="breakfast"/>
+<include name="dinner"/>
+</run>
+</groups>
+
+<classes>
+<class name="Section8AdvanceFeatureofTestNG.GroupingExamples"/>
+</classes>
+</test>
+</suite>

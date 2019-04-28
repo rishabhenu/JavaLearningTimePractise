@@ -1,0 +1,10 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test suite 1" time-out="10000">
+
+<test name ="test1">
+<classes>
+<class name ="HardSoftAssertions.timeOut"></class>
+</classes>
+</test>
+</suite>
