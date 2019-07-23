@@ -2,6 +2,22 @@ package Trancxn.Patterns;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Rishabh Sharma
+ * 
+ * @desc print a pattern like this 
+ * 
+ * 					  &   
+    					&   &   
+  				      &       &   
+				    &           &   
+  				      &       &   
+    					&   &   
+      					  &   
+ *
+ */
+
 public class PatternInterview {
 
 	static int n;
